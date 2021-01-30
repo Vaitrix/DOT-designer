@@ -1,0 +1,33 @@
+function column_resize
+hExcel = actxserver('Excel.Application');
+S = dir('modular-DOT-Table.xlsx');
+txt = S.folder;
+filedir = strcat(txt, '\modular-DOT-Table.xlsx');
+E.DisplayAlerts = 0;
+hWorkbook = hExcel.Workbooks.Open(filedir);
+hWorksheet = hWorkbook.Sheets.Item(1);
+hWorksheet.Columns.Item(2).columnWidth = 60;
+hWorksheet.Columns.Item(3).columnWidth = 10;
+hWorksheet.Columns.Item(4).columnWidth = 10; 
+hWorksheet.Columns.Item(5).columnWidth = 10;
+hWorksheet.Columns.Item(6).columnWidth = 10;
+hWorksheet.Columns.Item(7).columnWidth = 10;
+hWorksheet.Columns.Item(8).columnWidth = 10;
+hWorksheet.Columns.Item(9).columnWidth = 10;
+hWorksheet.Columns.Item(10).columnWidth = 10;
+hWorksheet.Columns.Item(11).columnWidth = 10;
+hWorksheet.Columns.Item(12).columnWidth = 10;
+hWorksheet.Columns.Item(13).columnWidth = 10;
+hWorksheet.Columns.Item(14).columnWidth = 10;
+hWorksheet.Columns.Item(15).columnWidth = 10;
+hWorksheet.Columns.Item(16).columnWidth = 10;
+hWorksheet.Columns.Item(17).columnWidth = 10;
+hWorksheet.Columns.Item(18).columnWidth = 10;
+hWorksheet.Columns.Item(19).columnWidth = 10;
+hWorksheet.Columns.Item(20).columnWidth = 10;
+hWorksheet.Columns.Item(21).columnWidth = 10;
+hWorksheet.Columns.Item(22).columnWidth = 10;
+hWorkbook.Save;
+hWorkbook.Close;
+hExcel.Quit;
+end
