@@ -1,0 +1,68 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3944473413" file="C:\Users\Goku\Desktop\Modcons Intern folder\DOT app folder\DOT designer.prj" location="C:\Users\Goku\Desktop\Modcons Intern folder\DOT app folder" name="DOT designer" target="target.mlapps" target-name="Package App">
+    <param.appname>DOT designer</param.appname>
+    <param.authnamewatermark>Vishnu Manoj</param.authnamewatermark>
+    <param.email>vishmj@gmail.com</param.email>
+    <param.company>modular concepts</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Generates DOT spreadsheets for medical gas engineering.</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\Goku\Desktop\DOT app designer screenshot.PNG</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\Goku\Desktop\DOT designer</param.output>
+    <param.guid>2de74d08-2e48-4d7d-b357-5df5bbd51dae</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\DOT.m</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Goku\Desktop" name="DOT designer" optional="false">C:\Users\Goku\Desktop\DOT designer</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2019a</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
