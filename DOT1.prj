@@ -1,0 +1,69 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2199167566" file="C:\Users\Goku\Desktop\Modcons Intern folder\DOT app folder\DOT1.prj" location="C:\Users\Goku\Desktop\Modcons Intern folder\DOT app folder" name="DOT1" target="target.mlapps" target-name="Package App">
+    <param.appname>DOT1</param.appname>
+    <param.authnamewatermark>Vishnu Manoj</param.authnamewatermark>
+    <param.email>vishmj@gmail.com</param.email>
+    <param.company>Modular Concepts</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description>The app generates DOT tables required when designing medical gas pipelines in a hospital. It follows HTM 02-01 standards.</param.description>
+    <param.screenshot>C:\Users\Goku\AppData\Local\Temp\tp8c642f19_f9bd_4a4e_b0b0_c606e94d71b8.png</param.screenshot>
+    <param.version>2.3</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\Goku\Desktop\DOT designer</param.output>
+    <param.guid>76506b36-c57d-4fac-8545-398c644ec6c0</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\DOT1.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Goku\Desktop" name="DOT designer" optional="false">C:\Users\Goku\Desktop\DOT designer</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2019a</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
